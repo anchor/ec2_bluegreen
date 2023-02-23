@@ -1,0 +1,12 @@
+<settings>
+  <servers>
+    <server>
+      <id>tomcat-server</id>
+      <configuration>
+	<cargo.tomcat.manager.url>http://<<IP_ADDRESS>>:8080/manager/text</cargo.tomcat.manager.url>
+        <cargo.remote.username>deployer</cargo.remote.username>
+        <cargo.remote.password>deployer</cargo.remote.password>
+      </configuration>
+    </server>
+  </servers>
+</settings>
